@@ -15,6 +15,7 @@ namespace BookingConsole
             Console.WriteLine();
             GetAll();
         }
+
         public static void GetSingle()
         {
             CourtObject testObject = bookService.GetSingleBooking(2);
